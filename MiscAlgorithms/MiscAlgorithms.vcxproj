@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Src\SimpleCalc\SimpleCalculator.cpp" />
     <ClCompile Include="Src\CountChars\CountChars.cpp" />
     <ClCompile Include="Src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Src\SimpleCalc\SimpleCalculator.h" />
     <ClInclude Include="Src\CountChars\CountChars.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

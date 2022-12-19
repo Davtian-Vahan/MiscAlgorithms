@@ -21,9 +21,15 @@
     <ClCompile Include="Src\CountChars\CountChars.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Src\SimpleCalc\SimpleCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Src\CountChars\CountChars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SimpleCalc\SimpleCalculator.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
