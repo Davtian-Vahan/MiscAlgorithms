@@ -15,7 +15,7 @@ namespace MiscAlgorithms
 		typedef int (*operation_func)(int, int);
 
 		// Main implementation, take 2 integer inputs
-		static int Implementation(int A, int B, char Sign);
+		static int Implementation(int A, int B, unsigned char Sign);
 
 		// Functors that perform simple operations between 2 integers
 		static int Add(int a, int b)

@@ -32,9 +32,16 @@ void TestSimpleCalculatorAlgorithm()
 	std::cin >> sign;
 	std::cin >> b;
 
-	// Perform the algorithm
-	int Result = MiscAlgorithms::SimpleCalculator::Implementation(a, b, sign);
+	try
+	{
+		// Perform the algorithm
+		int Result = MiscAlgorithms::SimpleCalculator::Implementation(a, b, sign);
 
-	// Output the result
-	std::cout << "	= " << Result << '\n';
+		// Output the result
+		std::cout << "	= " << Result << '\n';
+	}
+	catch (const std::out_of_range & logic_error)
+	{
+		std::cerr << logic_error.what() << '\n';
+	}
 }
